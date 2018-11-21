@@ -1,0 +1,174 @@
+.contact-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-grow: inherit;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.contact {
+  margin: 20px;
+  padding: 15px;
+}
+
+iframe {
+  display: block;
+  width: 90vw;
+  height: calc(.75 * 90vw);
+  max-width: 800px;
+  max-height: 600px;
+}
+
+dt {
+  float: left;
+  margin-right: 10%;
+  max-width: 40%;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 50%;
+  margin-bottom: .5em;
+}
+
+dd::after {
+  content: " ";
+  display: block;
+  clear: left;
+}
+
+.social {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-grow: inherit
+}
+
+.social-icon {
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
+}
+
+.facebook img {
+  border-radius: 50px;
+  width: 225px;
+  height: 225px;
+}
+
+.instagram img {
+  border-radius: 30px;
+  width: 225px;
+  height: 225px;
+}
+
+
+a:hover {
+  cursor: pointer;
+}
+
+.copyright-devtag {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  bottom: 0px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  background: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.copyright-devtag::after {
+  content: '';
+  display: block;
+}
+
+.signature {
+  margin-right: 20px;
+  display: inline-block;
+  order: 1;
+}
+
+.copyright {
+  margin-left: 20px;
+  display: inline-block;
+  order: 0;
+}
+
+.heart {
+  color: red
+}
+
+
+@media screen and (max-width: 415px) {
+  .contact {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  dt {
+    float: left;
+    margin-right: 10%;
+    max-width: 40%;
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: 50%;
+    margin-bottom: .5em;
+  }
+
+  dd::after {
+    content: " ";
+    display: block;
+    clear: left;
+  }
+
+  .social {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-grow: inherit
+  }
+
+  .social-icon {
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+  }
+
+  .facebook img {
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .instagram img {
+    width: 100px;
+    height: 100px;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  .copyright-devtag {
+    justify-content: center;
+  }
+
+  .signature {
+    margin-right: 0px;
+  }
+
+  .copyright {
+    margin-left: 0px;
+  }
+
+}

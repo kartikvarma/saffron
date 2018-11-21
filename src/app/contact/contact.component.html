@@ -1,0 +1,59 @@
+<div class="contact-container">
+  <div class="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.1094473319117!2d-82.32873458444976!3d28.143156182613463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b6ed87194819%3A0x79c61f6d31cf9ac6!2s10044+Cross+Creek+Blvd%2C+Tampa%2C+FL+33647!5e0!3m2!1sen!2sus!4v1542577528748"
+      frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="contact">
+    <h5>{{ contact.address }}</h5>
+    <hr />
+    <span>
+      <h6>Business Hours:</h6>
+    </span>
+    <hr />
+    <dl>
+      <dt>Monday through Friday - Lunch:</dt>
+      <dd>{{contact.weekdayLunchHrs}}</dd>
+      <dt>Monday through Friday - Dinner:</dt>
+      <dd>{{contact.weekdayDinnerHrs}}</dd>
+      <dt>Saturday And Sunday - BreakFast:</dt>
+      <dd>{{contact.weekendBreakfastHrs}}</dd>
+      <dt>Saturday And Sunday - Lunch:</dt>
+      <dd>{{contact.weekendLunchHrs}}</dd>
+      <dt>Saturday And Sunday - Dinner:</dt>
+      <dd>{{contact.weekendDinnerHrs}}</dd>
+    </dl>
+    <hr />
+    <span>
+      <h6>Contact Info:</h6>
+    </span>
+    <hr />
+    <dl>
+      <dt>Telephone:</dt>
+      <dd>{{contact.phone}}</dd>
+      <dt>Mobile:</dt>
+      <dd>{{contact.mobile}}</dd>
+      <dt>Email:</dt>
+      <dd>{{contact.email}}</dd>
+    </dl>
+  </div>
+</div>
+<div class="social">
+  <div class="facebook social-icon">
+    <a href="{{contact.facebookURL}}">
+      <img src="https://s3.us-east-2.amazonaws.com/saffaronpalacetampa-images/Facebook.jpg" alt="facebook logo" />
+    </a>
+  </div>
+  <div class="instagram social-icon">
+    <a href="{{contact.instagramURL}}">
+      <img src="https://s3.us-east-2.amazonaws.com/saffaronpalacetampa-images/Instagram.jpg" alt="instagram logo" />
+    </a>
+  </div>
+</div>
+<div class="copyright-devtag">
+  <div class="copyright">
+    Copyright © {{ today | date: "yyyy" }} Saffron Palace, Tampa, FL 33647
+  </div>
+  <div class="signature">
+    Designed with <span class="heart">&hearts;</span> in Tampa, FL.
+  </div>
+</div>

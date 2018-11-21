@@ -1,1 +1,103 @@
+html,
+body {
+  color: gold;
+}
+
 /* You can add global styles to this file, and also import other style files */
+.layout-transparent {
+  background-color: rgba(0, 0, 0, 0.93);
+  /*url('assets/images/default-bg.jpg') center / cover;*/
+}
+
+/*
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+
+color: white;
+}
+*/
+.mdl-layout__header {
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+.material-icons {
+  color: gold;
+}
+
+.mdl-mini-footer {
+  background-color: rgba(0, 0, 0, 0.93);
+  padding: 16px;
+  color: gold
+}
+
+.mdl-mini-footer a {
+  text-decoration: none;
+  color: gold
+}
+
+#direction {
+  display: none;
+}
+
+.mdl-mini-footer__right-section .material-icons {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+
+  .mdl-layout__header a {
+    justify-content: flex-start;
+    display: block
+  }
+
+
+
+  .mdl-mini-footer {
+    background-color: black;
+    justify-content: center;
+    line-height: 10px;
+    height: 10px;
+    /* margin-bottom: 20px; */
+    padding: 10px 0 20px 0;
+  }
+
+  #direction {
+    display: block;
+    font-family: Roboto;
+  }
+
+  .mdl-mini-footer__right-section {
+    display: none;
+  }
+
+
+}
+
+@media screen and (max-width: 415px) {
+
+  .mdl-mini-footer {
+    background-color: black;
+    justify-content: center;
+    /* line-height: 10px;
+    height: 10px;
+    margin-bottom: 20px; */
+  }
+
+  #direction {
+    display: block;
+  }
+
+  .mdl-mini-footer__right-section {
+    display: none;
+  }
+
+  .menu-category {
+    padding-left: 10px;
+  }
+
+  .menu-category li ul {
+    padding-left: 5px;
+  }
+
+
+}
