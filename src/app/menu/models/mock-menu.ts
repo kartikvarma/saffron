@@ -142,7 +142,7 @@ export const MENU: Menu = {
     },
     {
       id: 'ftb3',
-      name: 'Saffron Palace Chilly Naan',
+      name: 'Saffron Palace Chilli Naan',
       description:
           'Naan bread topped with green chillies and baked in clay oven',
       price: '1.99',
@@ -219,7 +219,7 @@ export const MENU: Menu = {
     },
     {
       id: 't4',
-      name: 'Saffron Palace Sheekh Kabab',
+      name: 'Saffron Palace Seekh Kabab',
       description:
           'Freshly ground lamb, mild spiced, cooked on skewers in clay oven',
       price: '14.99',
@@ -228,7 +228,7 @@ export const MENU: Menu = {
     {
       id: 't5',
       name: 'Saffron Palace Mix Platter',
-      description: 'A combination of our tandoor recipies',
+      description: 'A combination of our tandoor recipes',
       price: '19.99',
       image: ''
     }
@@ -254,7 +254,7 @@ export const MENU: Menu = {
       id: 'v3',
       name: 'Saffron Palace Bombay Aloo or Vegetable Curry',
       description:
-          'Baby potatoes cooked with tomatoes, onions, ginger, garlic, herbs & cilantro or Seasonal vegetables cooked with mild spices ina a onion & tomato sauce',
+          'Baby potatoes cooked with tomatoes, onions, ginger, garlic, herbs & cilantro or Seasonal vegetables cooked with mild spices in a onion & tomato sauce',
       price: '10.99',
       image: ''
     },
@@ -365,10 +365,10 @@ export const MENU: Menu = {
     },
     {
       id: 'c5',
-      name: 'Saffron Palace Chicken Kadai / Chicken Xacuti',
+      name: 'Saffron Palace Chicken Kadai',
       description:
-          'Bonelss chicken cooked in copper pot with onion, tomato & bell pepper/Goan speciality of boneless chicken cooked with ground spices & coconut',
-      price: '13.99 /12.99',
+          'Boneless chicken cooked in copper pot with onion, tomato & bell pepper',
+      price: '13.99',
       image: ''
     },
     {
@@ -383,7 +383,7 @@ export const MENU: Menu = {
       id: 'c7',
       name: 'Saffron Palace Chicken Madras',
       description:
-          'South India speciality made with boneless chicken cooked in spices & coconut',
+          'South Indian speciality made with boneless chicken cooked in spices & coconut',
       price: '12.99',
       image: ''
     }
@@ -613,7 +613,7 @@ export const MENU: Menu = {
       id: 'r3',
       name: 'Saffron Palace Goat Biryani / Lamb Biryani',
       description:
-          'Basmati rice, cooked with boan-in-goat, nuts, raisins, spices, herbs, garnished with saffron & fried onions / Basmati rice, cooked with tender boneless lamb, nuts, raisins, spices, herbs, garnished with saffron & fried onions',
+          'Basmati rice, cooked with bone-in-goat, nuts, raisins, spices, herbs, garnished with saffron & fried onions / Basmati rice, cooked with tender boneless lamb, nuts, raisins, spices, herbs, garnished with saffron & fried onions',
       price: '14.99',
       image: ''
     },
@@ -808,7 +808,7 @@ export const MENU: Menu = {
 //   },
 //   {
 //     id: 2,
-//     name: 'Chilly Chicken',
+//     name: 'Chilli Chicken',
 //     description:
 //         'Chicken cooked with battered with sprices and cooked with indian
 //         jalapenos',
