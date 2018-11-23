@@ -16,6 +16,5 @@ export class Menu {
   rice: Item[];
   sideOrders: Item[];
   desserts: Item[];
-  beverages: Item[];
-  hotBeverages: Item[];
+  drinks: Item[];
 }
