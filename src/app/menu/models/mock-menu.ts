@@ -89,7 +89,7 @@ export const MENU: Menu = {
     {
       id: 'a4',
       name: 'Saffron Palace Seekh Kabab (6 pieces)',
-      description: 'Freshly ground lamb, lightly spiced, cooked on skewers in clay oven.',
+      description: 'Freshly ground Lamb, lightly spiced, cooked on skewers in clay oven.',
       price: '9.95',
       image: ''
     },
@@ -150,13 +150,13 @@ export const MENU: Menu = {
       image: ''
     }
   ],
-  freshTandooriBread: [
+  freshtandooribread: [
     {
       id: 'ftb1',
       name: 'Saffron Palace Plain Naan',
       description:
           'A traditional light and fluffy white bread baked in clay oven',
-      price: '1.99',
+      price: '2.50',
       image: ''
     },
     {
@@ -164,188 +164,244 @@ export const MENU: Menu = {
       name: 'Saffron Palace Garlic Naan',
       description:
           'Naan bread topped with chopped garlic, cilantro and baked in clay oven',
-      price: '2.99',
+      price: '3.50',
+      image: ''
+    },
+    {
+      id: 'ftb3',
+      name: 'Saffron Palace Bhatura Fried Naan',
+      description:
+          '',
+      price: '4.00',
+      image: ''
+    },
+    {
+      id: 'ftb31',
+      name: 'Saffron Palace Garlic Roti',
+      description:
+          '',
+      price: '4.50',
       image: ''
     },
     {
       id: 'ftb4',
       name: 'Saffron Palace Peshawari Naan',
       description: 'Naan bread stuffed with raisins, nuts and herbs',
-      price: '4.49',
+      price: '4.95',
       image: ''
     },
     {
       id: 'ftb5',
       name: 'Saffron Palace Kheema / Cheese / Paneer Naan',
       description:
-          'Naan bread stuffed with light spiced ground lamb / Naan bread with cheese spread baked in clay oven / Naan bread stuffed with cottage cheese baked in clay oven',
-      price: '4.99',
+          'Naan bread stuffed with light spiced ground Lamb / Naan bread with cheese spread baked in clay oven / Naan bread stuffed with cottage cheese baked in clay oven',
+      price: '4.95',
       image: ''
     },
     {
       id: 'ftb6',
-      name: 'Saffron Palace Aloo Naan',
-      description: 'Naan bread stuffed with delicate spiced boiled potatoes',
-      price: '4.49',
+      name: 'Saffron Palace Aloo Naan / Aloo Paratha',
+      description: 'Naan bread / Whole wheat bread stuffed with delicate spiced boiled potatoes.',
+      price: '4.50',
       image: ''
     },
     {
       id: 'ftb7',
-      name: 'Saffron Palace Tandoori Roti',
-      description: 'Whole wheat bread baked in clay oven',
-      price: '2.49',
+      name: 'Saffron Palace Tandoori Roti / Paratha',
+      description: 'Whole wheat / Unleavened whole wheat bread cooked in clay oven with butter.',
+      price: '3.00 / 3.50',
       image: ''
     },
     {
       id: 'ftb8',
-      name: 'Saffron Palace Paratha / Onion Kulcha / Poori',
+      name: 'Saffron Palace Onion Kulcha / Poori',
       description:
-          'Whole wheat bread cooked and basted with melted butter / Naan bread topped with chopped onions, cilantro and herbs / Deep fried and puffed unleavened bread',
-      price: '3.49',
+          'Naan bread topped with chopped onions, cilantro and herbs / Deep fried and puffed unleavened bread.',
+      price: '3.50 / 4.00',
       image: ''
     },
     {
       id: 'ftb9',
       name: 'Saffron Palace Special Bread Basket',
-      description: 'Combination of naan, garlic naan and aloo naan',
-      price: '7.99',
+      description: 'Combination of naan, garlic naan and aloo naan.',
+      price: '9.95',
       image: ''
     }
   ],
   tandoori: [
     {
       id: 't1',
-      name: 'Saffron Palace Tandoori Chicken',
+      name: 'Saffron Palace Tandoori Chicken (6 pieces)',
       description:
-          'Chicken marinated in yogurt, mild spices and herbs, roasted in clay oven',
-      price: '12.99',
+          'Chicken marinated in yogurt, mild spices and herbs, roasted in clay oven.',
+      price: '18.95',
       image: ''
     },
     {
       id: 't2',
-      name: 'Saffron Palace Chicken Tikka or Paneer Tikka',
+      name: 'Saffron Palace Chicken Tikka / Paneer Tikka (12 pieces)',
       description:
-          'Boneless chicken breast or cottage cheese, marinated in yogurt and spices, roasted in clay oven',
-      price: '15.99',
+          'Boneless chicken breast / cottage cheese, marinated in yogurt and spices, roasted in clay oven.',
+      price: '16.95',
       image: ''
     },
     {
       id: 't3',
       name: 'Saffron Palace Lamb Chops',
-      description: 'Lamb marinated with herbs, cooked on skewers in clay oven',
+      description: 'Lamb marinated with herbs, cooked on skewers in clay oven.',
       price: '24.99',
       image: ''
     },
     {
       id: 't4',
-      name: 'Saffron Palace Seekh Kabab',
+      name: 'Saffron Palace Seekh Kabab(10 pieces)',
       description:
-          'Freshly ground lamb, mild spiced, cooked on skewers in clay oven',
-      price: '14.99',
+          'Freshly ground Lamb, mild spiced, cooked on skewers in clay oven.',
+      price: '18.95',
       image: ''
     },
     {
       id: 't5',
+      name: 'Saffron Palace Tandoori Shrimp(8 pieces)',
+      description:
+          'Jumbo Shrimp marinated with herbs, cooked on skewers in clay oven.',
+      price: '19.95',
+      image: ''
+    },
+    {
+      id: 't6',
       name: 'Saffron Palace Mix Platter',
-      description: 'A combination of our tandoor recipes',
-      price: '19.99',
+      description: 'A combination of our tandoor recipes, no substitutions.',
+      price: '24.95',
       image: ''
     }
   ],
   vegetables: [
     {
       id: 'v1',
-      name: 'Saffron Palace Paneer Tikka Masala',
+      name: 'Saffron Palace Vegetable / Paneer / Tofu Tikka Masala',
       description:
-          'Cottage cheese cubes grilled in clay oven and cooked in a creamy tomato sauce',
-      price: '12.99',
+          'Mixed vegetables / Cottage cheese cubes grilled in clay oven and cooked in a creamy tomato sauce.',
+      price: '13.95',
+      image: ''
+    },
+    {
+      id: 'v11',
+      name: 'Saffron Palace Paneer Makhni / Paneer Kadai',
+      description:
+          'Shredded Cottage cheese cooked in mild buttery sauce, tenugreek leaves / Cottage cheese cooked in a copper pot with onions, tomatoes and bell pepper.',
+      price: '14.95 / 14.95',
       image: ''
     },
     {
       id: 'v2',
-      name: 'Saffron Palace Chana Masala or Bhindi Masala',
+      name: 'Saffron Palace Chana Masala / Bhindi Masala',
       description:
-          'Garbanzo beans in tomato gravy or okras, sauteed with onion, tomato & spices',
-      price: '9.99',
+          'Garbanzo beans in tomato gravy / okras, sauteed with onion, tomato and spices.',
+      price: '12.95',
       image: ''
     },
     {
       id: 'v3',
-      name: 'Saffron Palace Bombay Aloo or Vegetable Curry',
+      name: 'Saffron Palace Vegetable Curry',
       description:
-          'Baby potatoes cooked with tomatoes, onions, ginger, garlic, herbs & cilantro or Seasonal vegetables cooked with mild spices in a onion & tomato sauce',
-      price: '10.99',
+          'Baby potatoes cooked with tomatoes, onions, ginger, garlic, herbs and cilantro / Seasonal vegetables cooked with mild spices in a onion and tomato sauce.',
+      price: '13.95',
       image: ''
     },
     {
       id: 'v4',
       name: 'Saffron Palace Malai Kofta',
       description:
-          'Mixed vegetables, raisin & nut croquettes, cooked in rich & delicious creamy sauce',
-      price: '11.99',
+          'Mixed vegetables, raisin and nut croquettes, cooked in rich and delicious creamy sauce.',
+      price: '13.95',
       image: ''
     },
     {
       id: 'v5',
-      name: 'Saffron Palace Mutter Paneer',
+      name: 'Saffron Palace Mutter Paneer / Mutter Tofu',
       description:
-          'Cubes of cottage cheese & tender green peas cooked in a mildly spiced sauce',
-      price: '11.99',
+          'Cubes of cottage cheese and tender green peas cooked in a mildly spiced sauce.',
+      price: '13.95',
+      image: ''
+    },
+    {
+      id: 'v51',
+      name: 'Saffron Palace Vegetable Xacuti / Vegetable Madras',
+      description:
+          'Goan specialty of vegetables cooked with ground peas and cocunut / South Indian specialty made with vegetables cooked in spices and coconut.',
+      price: '13.95',
+      image: ''
+    },
+    {
+      id: 'v52',
+      name: 'Saffron Palace Vegetable Pindi',
+      description:
+          'Spinach, almond, cashew sauce with vegetables.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'v6',
-      name: 'Saffron Palace Paneer Butter Masala',
+      name: 'Saffron Palace Paneer / Vegetable / Tofu Butter Masala',
       description:
-          'Cottage cheese cubes cooked in mild buttery sauce, fenugreek leaves',
-      price: '12.99',
+          'Cottage cheese cubes / Potatoes cooked in mild buttery sauce, fenugreek leaves.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'v7',
-      name: 'Saffron Palace Palak Paneer',
+      name: 'Saffron Palace Palak Paneer / Paneer Tofu',
       description:
-          'Cottage cheese cubes cooked with lightly creamed & spiced spinach',
-      price: '11.99',
+          'Cottage cheese cubes / Potatoes cooked with lightly creamed and spiced spinach.',
+      price: '13.95 / 14.95',
       image: ''
     },
     {
       id: 'v8',
       name: 'Saffron Palace Bhaigan Bharta',
       description:
-          'Eggplant roasted in clay oven cooked with chopped onions & tomatoes',
-      price: '10.99',
+          'Eggplant roasted in clay oven cooked with chopped onions and tomatoes.',
+      price: '12.95',
       image: ''
     },
     {
       id: 'v9',
-      name: 'Saffron Palace Navratan Korma',
-      description: 'Seasonal vegetables cooked in a cashew based creamy sauce',
-      price: '14.95',
+      name: 'Saffron Palace Navratan / Paneer Korma',
+      description: 'Seasonal vegetables / Cottage cheese cooked in a cashew based creamy sauce.',
+      price: '14.95 / 14.95',
       image: ''
     },
     {
       id: 'v10',
       name: 'Saffron Palace Paneer Korma',
       description:
-          'Cottage cheese cooked in cashew based creamy sauce',
+          'Cottage cheese cooked in cashew based creamy sauce.',
       price: '14.95',
       image: ''
     },
     {
       id: 'v11',
-      name: 'Saffron Palace Aloo Gobi',
+      name: 'Saffron Palace Bombay Aloo / Aloo Gobi / Aloo Matar',
       description:
-          'Cauliflower & potato cooked with tomato, onion, ginger, garlic & cilantro',
-      price: '10.99',
+          'Potato / Peas cooked with cauliflower, cooked in rich and delicious creamy sauce.',
+      price: '12.95',
       image: ''
     },
     {
       id: 'v12',
-      name: 'Saffron Palace Daal Tadka or Daal Makhni',
+      name: 'Saffron Palace Aloo Palak / Palak Channa',
       description:
-          'Split lentils cooked in spices, onions, tomato, ginger, garlic & cilantro or Whole lentils cooked in spices, cream & butter, sauteed in onions, tomatoes, ginger, garlic & garnished with cilantro',
-      price: '9.99 / 10.99',
+          'Potatoes / Spinach with Garbanzo cooked with lightly creamed and spiced spinach.',
+      price: '12.95',
+      image: ''
+    },
+    {
+      id: 'v13',
+      name: 'Saffron Palace Daal Tadka / Daal Makhni',
+      description:
+          'Split lentils cooked in spices, onions, tomato, ginger, garlic and cilantro / Whole lentils cooked in spices, cream and butter, sauteed in onions, tomatoes, ginger, garlic and garnished with cilantro',
+      price: '12.95',
       image: ''
     }
   ],
@@ -354,187 +410,162 @@ export const MENU: Menu = {
       id: 'c1',
       name: 'Saffron Palace Chicken Tikka Masala',
       description:
-          'Chicken cubes grilled in clay oven & cooked in a creamy tomato sauce',
-      price: '13.99',
+          'Chicken cubes grilled in clay oven and cooked in a creamy tomato sauce',
+      price: '14.95',
       image: ''
     },
     {
       id: 'c2',
-      name: 'Saffron Palace Chicken Korma / Butter Chicken',
+      name: 'Saffron Palace Chicken Korma',
       description:
-          'Boneless chicken lightly spiced & simmered in a creamy cashew nut sauce / Shredded tandoori chicken cooked in creamy sauce & a dash of butter & cream',
-      price: '13.99',
+          'Boneless chicken lightly spiced and simmered in a creamy cashew nut sauce.',
+      price: '14.95',
+      image: ''
+    },
+    {
+      id: 'c2',
+      name: 'Saffron Palace Butter Chicken / Chicken Butter Masala',
+      description:
+          'Shredded tandoori chicken cooked in creamy sauce and a dash of butter and cream / Cooked in creamy onion and tomato based sauce with dash of butter and cream.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'c3',
       name: 'Saffron Palace Chicken Saagwala / Chicken Curry',
       description:
-          'Boneless pieces of chicken lightly spiced & cooked in spinach / Boneless pieces of chicken cooked in a light gravy & freshly ground spices',
-      price: '12.99',
+          'Boneless pieces of chicken lightly spiced and cooked in spinach / Boneless pieces of chicken cooked in a light gravy and freshly ground spices.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'c4',
-      name: 'Saffron Palace Chicken Butter Masala',
+      name: 'Saffron Palace Chicken Rogan Josh',
       description:
-          'Sherdded tandoori chicken cooked in a creamy onion & tomato based sauce with dash of butter & cream',
-      price: '13.99',
+          'Chicken cooked with onion, ginger, garlic, yougurt, cashew nut and almond paste, tomato with special herbs and spices.',
+      price: '15.95',
       image: ''
     },
     {
       id: 'c5',
-      name: 'Saffron Palace Chicken Kadai',
+      name: 'Saffron Palace Chicken Kadai / Chicken Xacuti ',
       description:
-          'Boneless chicken cooked in copper pot with onion, tomato & bell pepper',
-      price: '13.99',
+          'Boneless chicken cooked in copper pot with onion, tomato and bell pepper / Goan speciality of boneless chicken cooked with ground spices and coconut.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'c6',
       name: 'Saffron Palace Chicken Vindaloo',
       description:
-          'Goan speciality of boneless chicken & potato cooked in a spicy vinegar sauce',
-      price: '12.99',
+          'Goan speciality of boneless chicken and potato cooked in a spicy vinegar sauce.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'c7',
       name: 'Saffron Palace Chicken Madras',
       description:
-          'South Indian speciality made with boneless chicken cooked in spices & coconut',
-      price: '12.99',
+          'South Indian speciality made with boneless chicken cooked in spices and coconut.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'c8',
       name: 'Saffron Palace Mughali Chicken',
       description:
-          'South Indian speciality made with boneless chicken cooked in TBD',
+          'South Indian speciality made with boneless chicken cooked in special spices.',
       price: '15.95',
       image: ''
     }
   ],
-  lamb: [
-    {
-      id: 'l1',
-      name: 'Saffron Palace Boti Kabab Masala',
-      description:
-          'Lamb cubes grilled in clay oven & then cooked in a creamy tomato sauce',
-      price: '15.99',
-      image: ''
-    },
+  lambandgoat: [
     {
       id: 'l2',
-      name: 'Saffron Palace Lamb Curry',
+      name: 'Saffron Palace Lamb Curry / Goat Curry',
       description:
-          'Chunks of tender lamb cooked in a light gravy & freshly ground spices',
-      price: '14.99',
+          'Chunks of tender Lamb / Goat cooked in a light gravy and freshly ground spices.',
+      price: '16.95',
       image: ''
     },
     {
       id: 'l3',
-      name: 'Saffron Palace Lamb Saagwala',
-      description: 'Cut fillet of lamb lightly spiced & cooked in spinach',
-      price: '14.99',
+      name: 'Saffron Palace Lamb Saagwala / Goat Saagwala',
+      description: 'Cut fillet of Lamb / Goat lightly spiced and cooked in spinach.',
+      price: '16.95',
       image: ''
     },
     {
       id: 'l4',
-      name: 'Saffron Palace Lamb Korma / Lamb Kadai',
+      name: 'Saffron Palace Lamb Korma / Goat Korma',
       description:
-          'Lamb cubes lightly spiced & cooked in a creamy cashew nut sauce / Boneless lamb cooked in copper pot with onions, tomatoes & bell peppers',
-      price: '15.99 / 14.99',
-      image: ''
-    },
-    {
-      id: 'l5',
-      name: 'Saffron Palace Lamb Rogan Josh',
-      description:
-          'Boneless lamb cooked with onions, ginger, garlic, yogurt, cashew nut & almond paste, tomatoes with special herbs & spices',
-      price: '14.99',
-      image: ''
-    },
-    {
-      id: 'l6',
-      name: 'Saffron Palace Lamb Xacuti / Lamb Vindaloo',
-      description:
-          'Goan speciality of boneless lamb cooked with ground spices & coconut / Goan speciality of boneless lamb & potato cooked in a spicy vinegar sauce',
-      price: '14.99',
-      image: ''
-    },
-    {
-      id: 'l7',
-      name: 'Saffron Palace Lamb Madras / Lamb Bhuna',
-      description:
-          'South Indian speciality, made with boneless lamb cooked with spices & coconut / Boneless lamb cooked with spices in onion & tomato based sauce',
-      price: '14.99',
-      image: ''
-    }
-  ],
-  goat: [
-    {
-      id: 'g1',
-      name: 'Saffron Palace Goat Curry',
-      description:
-          'Chunks of goat cooked in light gravy & freshly ground spices',
-      price: '13.99',
+          'Lamb / Goat cubes lightly spiced and cooked in a creamy cashew nut sauce.',
+      price: '16.95',
       image: ''
     },
     {
       id: 'g2',
-      name: 'Saffron Palace Goat Korma / Goat Kadai',
+      name: 'Saffron Palace Lamb Kadai / Goat Kadai',
       description:
-          'Goat cubes lightly spiced & cooked in creamy cashew nut sauce / Goat cooked in copper pot with onions, tomatoes & bell peppers',
-      price: '15.99',
+          'Tender Lamb / Goat cooked in copper pot with onions, tomatoes and bell peppers.',
+      price: '16.95',
       image: ''
     },
     {
-      id: 'g3',
-      name: 'Saffron Palace Goat Saagwala',
-      description: 'Cut fillet of goat lightly spiced & cooked in spinach',
-      price: '14.99',
+      id: 'l5',
+      name: 'Saffron Palace Lamb Rogan Josh / Goat Rogan Josh',
+      description:
+          'Boneless Lamb / Goat cooked with onions, ginger, garlic, yogurt, cashew nut and almond paste, tomatoes with special herbs and spices.',
+      price: '16.95',
       image: ''
     },
     {
-      id: 'g4',
-      name: 'Saffron Palace Goat Rogan Josh',
+      id: 'l6',
+      name: 'Saffron Palace Lamb Xacuti / Goat Xacuti',
       description:
-          'Goat cooked with onions, ginger, garlic, yogurt, cashew nut & almond paste, tomatoes with special herbs & spices',
-      price: '14.99',
+          'Goan speciality of boneless Lamb / Goat cooked with ground spices and coconut.',
+      price: '16.95',
       image: ''
     },
     {
-      id: 'g5',
-      name: 'Saffron Palace Goat Xacuti / Goat Vindaloo',
+      id: 'l61',
+      name: 'Saffron Palace Lamb Vindaloo / Goat Vindaloo',
       description:
-          'Goan speciality of goat cooked with ground spices & coconut / Goan preparation of goat & potatoes cooked in spicy vinegar sauce',
-      price: '14.99',
+          'Goan speciality of boneless Lamb / Goat and potato cooked in a spicy vinegar sauce.',
+      price: '16.95',
       image: ''
     },
     {
-      id: 'g6',
-      name: 'Saffron Palace Goat Madras / Goat Bhuna',
+      id: 'l7',
+      name: 'Saffron Palace Lamb Madras / Goat Madras',
       description:
-          'South Indina speciality, made with goat cooked with spices & coconut / Goat cooked with spices in onion & tomato based sauce',
-      price: '14.99',
+          'South Indian speciality, made with boneless Lamb / Goat cooked with spices and coconut.',
+      price: '16.95',
+      image: ''
+    },
+    {
+      id: 'l71',
+      name: 'Saffron Palace Lamb Bhuna / Goat Bhuna',
+      description:
+          'Boneless Lamb / Goat cooked with spices in onion and tomato based sauce.',
+      price: '16.95',
       image: ''
     }
   ],
   seafood: [
     {
       id: 'sf1',
-      name: 'Saffron Palace Shrimp Curry',
+      name: 'Saffron Palace Shrimp / Fish / Goan FishCurry',
       description:
-          'Large shrimps cooked in a light gravy & freshly ground spices',
-      price: '14.99',
+          'Large shrimps / Fish fillets cooked in a light gravy and freshly ground spices / Goan speciality fish cooked in traditional, light spiced coconut sauce.',
+      price: '19.95 / 15.95',
       image: ''
     },
     {
       id: 'sf2',
       name: 'Saffron Palace Shrimp Tikka Masala / Fish Tikka Masala',
       description:
-          'Jumbo shrimps / Fish fillet grilled perfectly in clay oven, cooked in a creamy tomato sauce',
+          'Jumbo shrimps / Fish fillet grilled perfectly in clay oven, cooked in a creamy tomato sauce.',
       price: '19.95 / 15.95',
       image: ''
     },
@@ -542,128 +573,86 @@ export const MENU: Menu = {
       id: 'sf3',
       name: 'Saffron Palace Shrimp Xacuti / Shrimp Vindaloo',
       description:
-          'Goan speciality of large shrimp cooked with sauteed ground spices & coconut / Goan preparation of large shrimp & potato cooked in a spicy vinegar sauce',
-      price: '14.99',
+          'Goan speciality of large shrimp cooked with sauteed ground spices and coconut / Goan preparation of large shrimp and potato cooked in a spicy vinegar sauce.',
+      price: '19.95',
       image: ''
     },
     {
       id: 'sf4',
-      name: 'Saffron Palace Shrimp Bhunna',
+      name: 'Saffron Palace Shrimp Bhunna / Shrimp Madras',
       description:
-          'Large shrimps cooked with spices in onion and tomato based sauce',
-      price: '15.99',
-      image: ''
-    },
-    {
-      id: 'sf5',
-      name: 'Saffron Palace Shrimp Madras',
-      description:
-          'South India speciality made with large shrimps cooked in spices and coconut',
-      price: '15.99',
-      image: ''
-    },
-    {
-      id: 'sf6',
-      name: 'Saffron Palace Goan Fish Curry',
-      description:
-          'Goan speciality, fish cooked in a traditional, light spiced, coconut sauce',
-      price: '14.99',
-      image: ''
-    },
-    {
-      id: 'sf7',
-      name: 'Saffron Palace Fish Korma',
-      description:
-          'Seasonal fillets of fish lightly spiced & cooked in creamy cashew nut sauce',
-      price: '15.99',
-      image: ''
-    },
-    {
-      id: 'sf8',
-      name: 'Saffron Palace Fish Tikka Masala',
-      description:
-          'Fish grilled in clay oven & then cooked in creamy tomato sauce',
-      price: '15.99',
-      image: ''
-    },
-    {
-      id: 'sf9',
-      name: 'Saffron Palace Lobster Tikka Masala',
-      description:
-          'Lobster grilled in clay oven & then cooked in a creamy tomato sauce',
-      price: '18.99',
-      image: ''
-    },
-    {
-      id: 'sf10',
-      name: 'Saffron Palace Lobster Korma',
-      description:
-          'Lobster lightly spiced & cooked in a creamy cashew nut sauce',
-      price: '18.99',
-      image: ''
-    }
-  ],
-  indoChineseRice: [
-    {
-      id: 'icr1',
-      name: 'Saffron Palace Veg Fried Rice / Chicken Fried Rice',
-      price: '11.99',
-      description: '',
-      image: ''
-    },
-    {
-      id: 'icr2',
-      name: 'Saffron Palace Seafood Fried Rice',
-      price: '12.99',
-      description: '',
+          'Large shrimps cooked with spices in onion and tomato based sauce / South India speciality made with large shrimps cooked in spices and coconut.',
+      price: '19.95',
       image: ''
     }
   ],
   rice: [
     {
+      id: 'icr1',
+      name: 'Saffron Palace Veg Fried Rice / Chicken Fried Rice.',
+      price: '12.95 / 14.95',
+      description: '',
+      image: ''
+    },
+    {
+      id: 'icr2',
+      name: 'Saffron Palace Jumbo Shrimp Fried Rice.',
+      price: '18.95',
+      description: '',
+      image: ''
+    },
+    {
       id: 'r1',
       name: 'Saffron Palace Vegetable Biryani',
       description:
-          'Basmati rice, cooked with seasonal veges, nuts, raisins, spices, herbs, saffron',
-      price: '11.99',
+          'Basmati rice, cooked with seasonal veges, nuts, raisins, spices, herbs, saffron.',
+      price: '13.95',
       image: ''
     },
     {
       id: 'r2',
       name: 'Saffron Palace Chicken Biryani',
       description:
-          'Basmati rice, cooked with chicken cubes, nuts, raisins, spices, herbs, saffron',
-      price: '13.99',
+          'Basmati rice, cooked with chicken cubes, nuts, raisins, spices, herbs, saffron.',
+      price: '14.95',
       image: ''
     },
     {
       id: 'r3',
-      name: 'Saffron Palace Goat Biryani / Lamb Biryani',
+      name: 'Saffron Palace Lamb Biryani / Goat Biryani',
       description:
-          'Basmati rice, cooked with bone-in-goat, nuts, raisins, spices, herbs, garnished with saffron & fried onions / Basmati rice, cooked with tender boneless lamb, nuts, raisins, spices, herbs, garnished with saffron & fried onions',
-      price: '14.99',
+          'Basmati rice, cooked with tender boneless Lamb, nuts, raisins, spices, herbs, garnished with saffron and fried onions / Basmati rice, cooked with bone-in-goat, nuts, raisins, spices, herbs, garnished with saffron and fried onions.',
+      price: '16.95',
       image: ''
     },
     {
       id: 'r4',
       name: 'Saffron Palace Shrimp Biryani',
       description:
-          'Basmati rice, cooked with jumbo shrimps, nuts, raisins, spices, herbs, garnished with saffron & fried onions',
-      price: '14.99',
+          'Basmati rice, cooked with jumbo shrimps, nuts, raisins, spices, herbs, garnished with saffron and fried onions.',
+      price: '18.95',
+      image: ''
+    },
+    {
+      id: 'r51',
+      name: 'Saffron Palace Vegetable Pulao',
+      description:
+          'Mixed vegetables mildly spiced with Basmati rice cooked with seasonal vegetables, herbs, garnished with saffron.',
+      price: '12.95',
       image: ''
     },
     {
       id: 'r5',
       name: 'Saffron Palace Kashmiri Pulao',
       description:
-          'Basmati rice, cooked with seasonal vegetables, pineapple chunks, nuts, raisins, spices, herbs, garnished with saffron & cherries',
-      price: '9.99',
+          'Basmati rice, cooked with seasonal vegetables, pineapple chunks, nuts, raisins, spices, herbs, garnished with saffron and cherries.',
+      price: '12.95',
       image: ''
     },
     {
       id: 'r6',
       name: 'Saffron Palace Jeera Rice',
-      description: 'Basmati rice tossed in cumin & fried onions',
+      description: 'Basmati rice tossed in cumin and fried onions.',
       price: '4.99',
       image: ''
     },
@@ -671,15 +660,22 @@ export const MENU: Menu = {
       id: 'r7',
       name: 'Saffron Palace Special Biryani',
       description:
-          'Basmati rice, cooked in a combination of lamb, chicken, shrimp, seasonal vegetables, nuts, raisins, spices, herbs, garnished with saffron & fried onions',
-      price: '19.99',
+          'Basmati rice, cooked in a combination of Lamb, chicken, shrimp, seasonal vegetables, nuts, raisins, spices, herbs, garnished with saffron and fried onions',
+      price: '21.95',
       image: ''
     },
     {
       id: 'r8',
-      name: 'Saffron Palace Plain Rice',
+      name: 'Saffron Palace Peas Pulav',
+      description: 'Basmati rice tossed with peas.',
+      price: '7.95',
+      image: ''
+    },
+    {
+      id: 'r9',
+      name: 'Saffron Palace Small / Medium size Basmati rice',
       description: '',
-      price: '2.99',
+      price: '2.00 / 5.00',
       image: ''
     }
   ],
@@ -688,40 +684,40 @@ export const MENU: Menu = {
       id: 'so1',
       name: 'Saffron Palace Raita',
       description:
-          'Creamy salad made of chopped onion, cucumber, cumin & cilantro',
-      price: '2.99',
+          'Creamy salad made of chopped onion, cucumber, cumin and cilantro.',
+      price: '2.95',
       image: ''
     },
     {
       id: 'so2',
       name: 'Saffron Palace Green Salad / Onion Salad',
       description:
-          'Salad made of lettuce, tomatoes, onions, cucumbers & carrots / Onions served with green chillies',
-      price: '4.25 / 2.99',
+          'Salad made of lettuce, tomatoes, onions, cucumbers and carrots / Onions served with green chillies.',
+      price: '4.25 / 2.95',
       image: ''
     },
     {
       id: 'so3',
       name:
-          'Saffron Palace Mango Chutney (Sweet & spicy pickle made of mangoes)',
+          'Saffron Palace Mango Chutney (Sweet and spicy pickle made of mangoes)',
       description: '',
       price: '2.99',
       image: ''
     },
     {
       id: 'so4',
-      name: 'Saffron Palace Mixed Pickle / Mint Chutney',
+      name: 'Saffron Palace Chutney tray',
       description:
-          'A spicy pickle made of mangoes, carrots, lemon, chillies & freshly spices/ A delicate sauce made out of mint leaves, coriander leaves with yogurt',
-      price: '1.99',
+          'Onion mint and tamrind chutney.',
+      price: '2.95',
       image: ''
     },
     {
       id: 'so5',
-      name: 'Saffron Palace Tamarind Chutney / Onion Chutney',
+      name: 'Saffron Palace Mint or Tamarind Chutney / Onion Chutney',
       description:
-          'A puree made out of tamarind, dates & flavored with roasted cumin / Diced onions mixed with spicy tomoatoes & tamarind sauce',
-      price: '1.99',
+          'A puree made out of mint / tamarind, dates and flavored with roasted cumin / Diced onions mixed with spicy tomoatoes and tamarind sauce',
+      price: '2.25',
       image: ''
     },
     {
@@ -737,32 +733,32 @@ export const MENU: Menu = {
       id: 'd1',
       name: 'Saffron Palace Gulab Jamun',
       description:
-          'Dumplings of milk & cheese, deep fried, honey syrup, pistachios & saffron',
-      price: '3.99',
+          'Dumplings of milk and cheese, deep fried, honey syrup, pistachios and saffron.',
+      price: '4.50',
       image: ''
     },
     {
       id: 'd2',
       name: 'Saffron Palace Rasmalai',
       description:
-          'Sweet cheese patties made in milk, almonds, pistachios, rose water & saffron',
+          'Sweet cheese patties made in milk, almonds, pistachios, rose water and saffron.',
       price: '4.50',
       image: ''
     },
     {
       id: 'd3',
-      name: 'Saffron Palace Kulfi / Gajar Halwa',
+      name: 'Saffron Palace Kulfi',
       description:
-          'Traditional, homemade ice cream made with milk / Pudding of carrots cooked in milk, cheese, nuts & cardamom powder',
-      price: '4.50',
+          'Traditional, homemade ice cream made with milk.',
+      price: '4.99',
       image: ''
     },
     {
       id: 'd4',
       name: 'Saffron Palace Rice Pudding',
       description:
-          'Rice, simmered in milk, served chilled, garnished in slivered almonds & saffron',
-      price: '3.50',
+          'Rice, simmered in milk, served chilled, garnished in slivered almonds and saffron.',
+      price: '4.50',
       image: ''
     }
   ],

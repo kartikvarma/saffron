@@ -24,7 +24,7 @@
 }
 
 .item-category {
-  font-family: Calligraffittii;
+  font-family: EmblemaOne;
   font-size: 30px;
   text-align: center;
   margin-top: 20px;
@@ -82,4 +82,12 @@
     font-size: 12px;
   }
 
+}
+
+.menu-disclaimer {
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
