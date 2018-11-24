@@ -108,7 +108,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/saffron/production/1542770719009-2018-11-21T03:25:19.009Z/saffron.zip"
+                "S3Key": "serverless/saffron/production/1543039483389-2018-11-24T06:04:43.389Z/saffron.zip"
               },
               "FunctionName": "saffron-production-api",
               "Handler": "lambda.universal",
@@ -127,14 +127,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ApiLambdaVersion8isx6mDU8NvAJIT0gtZTjg6holcStinmfyeHqufXBY": {
+          "ApiLambdaVersionDL9ZyEHsuUL4bD24A9tJn2CSWg1dldQEcYcOrwh8PI": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "RiW/4ncZ5MY3EUpZEx4+slzQ2SS6c+a9mmgLKjWQreI="
+              "CodeSha256": "AlrE384tYdNkE/ErziTAvRTLbzgzkdqolXBqDt/GwWA="
             }
           },
           "ApiGatewayRestApi": {
@@ -252,7 +252,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1542770719059": {
+          "ApiGatewayDeployment1543039483431": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -322,7 +322,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersion8isx6mDU8NvAJIT0gtZTjg6holcStinmfyeHqufXBY"
+              "Ref": "ApiLambdaVersionDL9ZyEHsuUL4bD24A9tJn2CSWg1dldQEcYcOrwh8PI"
             }
           },
           "ServiceEndpoint": {
@@ -394,10 +394,10 @@
         "vpc": {}
       }
     },
-    "artifact": "/Users/kartikvarmaboreda/Personal/JSProgramming/restaurants/saffron/.serverless/saffron.zip"
+    "artifact": "D:\\Kapilas\\SAFFRON INDIAN CUISINE LLC\\Portal\\Code\\saffron\\.serverless\\saffron.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/saffron/production/1542770719009-2018-11-21T03:25:19.009Z",
+    "artifactDirectoryName": "serverless/saffron/production/1543039483389-2018-11-24T06:04:43.389Z",
     "artifact": "saffron.zip"
   }
 }

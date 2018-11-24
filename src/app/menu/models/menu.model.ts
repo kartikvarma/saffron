@@ -5,17 +5,14 @@ export class Menu {
   kidsMenu: Item[];
   appetizers: Item[];
   soups: Item[];
-  freshTandooriBread: Item[];
+  freshtandooribread: Item[];
   tandoori: Item[];
   vegetables: Item[];
   chicken: Item[];
-  lamb: Item[];
-  goat: Item[];
+  lambandgoat: Item[];
   seafood: Item[];
-  indoChineseRice: Item[];
   rice: Item[];
   sideOrders: Item[];
   desserts: Item[];
-  beverages: Item[];
-  hotBeverages: Item[];
+  drinks: Item[];
 }

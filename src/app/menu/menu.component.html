@@ -18,6 +18,21 @@
   </ul>
   <ul class="menu-category">
     <li>
+      <div class="item-category">Drinks</div>
+      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
+      <ul *ngFor="let item of menu.drinks">
+        <li class="menu-items mdl-card mdl-shadow--2dp">
+          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
+            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
+            <span class="item-price"> ${{item.price}} </span>
+            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul class="menu-category">
+    <li>
       <div class="item-category">Appetizers</div>
       <!-- <div class="item-category-description">Get started with some appetizers</div> -->
       <ul *ngFor="let item of menu.appetizers">
@@ -54,7 +69,7 @@
     <li>
       <div class="item-category">Fresh Tandoori Bread</div>
       <!-- <div class="item-category-description">Get started with some appetizers</div> -->
-      <ul *ngFor="let item of menu.freshTandooriBread">
+      <ul *ngFor="let item of menu.freshtandooribread">
         <li class="menu-items mdl-card mdl-shadow--2dp">
           <div class="item mdl-card__title" [ngStyle]="{'background':'url('+item.image+') center / cover', 'min-height':'50px'}"
             [ngClass]="(item.image=='')?'no-image':'yes-image'">
@@ -69,9 +84,9 @@
   </ul>
   <ul class="menu-category">
     <li>
-      <div class="item-category">Tandoori</div>
+      <div class="item-category">Side Orders</div>
       <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.tandoori">
+      <ul *ngFor="let item of menu.sideOrders">
         <li class="menu-items mdl-card mdl-shadow--2dp">
           <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
             <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
@@ -82,6 +97,36 @@
       </ul>
     </li>
   </ul>
+  <ul class="menu-category">
+      <li>
+        <div class="item-category">Rice</div>
+        <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
+        <ul *ngFor="let item of menu.rice">
+          <li class="menu-items mdl-card mdl-shadow--2dp">
+            <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
+              <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
+              <span class="item-price"> ${{item.price}} </span>
+              <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  <ul class="menu-category">
+      <li>
+        <div class="item-category">Tandoori</div>
+        <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
+        <ul *ngFor="let item of menu.tandoori">
+          <li class="menu-items mdl-card mdl-shadow--2dp">
+            <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
+              <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
+              <span class="item-price"> ${{item.price}} </span>
+              <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   <ul class="menu-category">
     <li>
       <div class="item-category">Vegetables</div>
@@ -114,9 +159,9 @@
   </ul>
   <ul class="menu-category">
     <li>
-      <div class="item-category">Lamb</div>
+      <div class="item-category">Lamb / Goat</div>
       <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.lamb">
+      <ul *ngFor="let item of menu.lambandgoat">
         <li class="menu-items mdl-card mdl-shadow--2dp">
           <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
             <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
@@ -129,69 +174,9 @@
   </ul>
   <ul class="menu-category">
     <li>
-      <div class="item-category">Goat</div>
-      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.goat">
-        <li class="menu-items mdl-card mdl-shadow--2dp">
-          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
-            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
-            <span class="item-price"> ${{item.price}} </span>
-            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul class="menu-category">
-    <li>
-      <div class="item-category">SeaFood</div>
+      <div class="item-category">Seafood</div>
       <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
       <ul *ngFor="let item of menu.seafood">
-        <li class="menu-items mdl-card mdl-shadow--2dp">
-          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
-            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
-            <span class="item-price"> ${{item.price}} </span>
-            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul class="menu-category">
-    <li>
-      <div class="item-category">Indo Chinese Rice</div>
-      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.indoChineseRice">
-        <li class="menu-items mdl-card mdl-shadow--2dp">
-          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
-            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
-            <span class="item-price"> ${{item.price}} </span>
-            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul class="menu-category">
-    <li>
-      <div class="item-category">Rice</div>
-      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.rice">
-        <li class="menu-items mdl-card mdl-shadow--2dp">
-          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
-            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
-            <span class="item-price"> ${{item.price}} </span>
-            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul class="menu-category">
-    <li>
-      <div class="item-category">Side Orders</div>
-      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.sideOrders">
         <li class="menu-items mdl-card mdl-shadow--2dp">
           <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
             <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
@@ -217,34 +202,6 @@
       </ul>
     </li>
   </ul>
-  <ul class="menu-category">
-    <li>
-      <div class="item-category">Beverages</div>
-      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.beverages">
-        <li class="menu-items mdl-card mdl-shadow--2dp">
-          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
-            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
-            <span class="item-price"> ${{item.price}} </span>
-            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <ul class="menu-category">
-    <li>
-      <div class="item-category">Hot Beverages</div>
-      <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
-      <ul *ngFor="let item of menu.hotBeverages">
-        <li class="menu-items mdl-card mdl-shadow--2dp">
-          <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
-            <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
-            <span class="item-price"> ${{item.price}} </span>
-            <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
-          </div>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
+  <p class="menu-disclaimer">We serve Vegan dishes on order.</p>
+  <p class="menu-disclaimer">We use zabihah halal meat in our dishes.</p>
+  </div>
