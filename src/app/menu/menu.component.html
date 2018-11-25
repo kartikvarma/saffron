@@ -1,4 +1,6 @@
 <div *ngIf="menu" class="menu">
+  <h2 class="menu-disclaimer">We serve Vegan food.</h2>
+  <h2 class="menu-disclaimer">We use zabihah halal meat in our dishes.</h2>
   <ul class="menu-category">
     <li>
       <div class="item-category">Kids Menu</div>
@@ -202,6 +204,19 @@
       </ul>
     </li>
   </ul>
-  <p class="menu-disclaimer">We serve Vegan dishes on order.</p>
-  <p class="menu-disclaimer">We use zabihah halal meat in our dishes.</p>
+  <ul class="menu-category">
+      <li>
+        <div class="item-category">Buffet</div>
+        <!-- <div class="item-category-description">Our exculsive lunch menu</div> -->
+        <ul *ngFor="let item of menu.buffet">
+          <li class="menu-items mdl-card mdl-shadow--2dp">
+            <div class="item mdl-card__title" [ngStyle]="{'background-image':'url('+item.image+') center / cover', 'min-height':'50px'}">
+              <h2 class="h6 item-name mdl-card__title-text"> {{item.name}} </h2>
+              <span class="item-price"> ${{item.price}} </span>
+              <div class="item-description mdl-card__supporting-text"> {{item.description}} </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>

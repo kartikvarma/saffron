@@ -15,4 +15,5 @@ export class Menu {
   sideOrders: Item[];
   desserts: Item[];
   drinks: Item[];
+  buffet: Item[];
 }
