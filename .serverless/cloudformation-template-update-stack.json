@@ -92,7 +92,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/saffron/production/1543079731301-2018-11-24T17:15:31.301Z/saffron.zip"
+          "S3Key": "serverless/saffron/production/1543120959224-2018-11-25T04:42:39.224Z/saffron.zip"
         },
         "FunctionName": "saffron-production-api",
         "Handler": "lambda.universal",
@@ -111,14 +111,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersionCv59FIotqRtaYMkZ3f3n1lrYWqU23Nnm5oy75gMM": {
+    "ApiLambdaVersionOS6t5ZsZqUHPp5HldnKARi9N4JkyGCTflbf1iyhCBY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "YmFOBQh+7DU7Ut6PV+34JA4IxeH6am4ZyIGo9Ga+wPU="
+        "CodeSha256": "g8MQ6PFp8PhkSn0iK9fadLZe5MWw+DKJ7onq3O/tkeI="
       }
     },
     "ApiGatewayRestApi": {
@@ -236,7 +236,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1543079731343": {
+    "ApiGatewayDeployment1543120959267": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -306,7 +306,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionCv59FIotqRtaYMkZ3f3n1lrYWqU23Nnm5oy75gMM"
+        "Ref": "ApiLambdaVersionOS6t5ZsZqUHPp5HldnKARi9N4JkyGCTflbf1iyhCBY"
       }
     },
     "ServiceEndpoint": {
