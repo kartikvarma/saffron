@@ -16,4 +16,5 @@ export class Menu {
   desserts: Item[];
   drinks: Item[];
   buffet: Item[];
+  southindianspecial: Item[];
 }

@@ -29,7 +29,7 @@ export const MENU: Menu = {
       id: 'b2',
       name: 'Saffron Palace Sweet Lassi / Salty Lassi / Mango Lassi ',
       description:
-          'A refreshing sweetened yogurt drink flavoured with rose water/ A drink made with fresh yogurt, lightly salted / Sweet yogurt mixed with mango pulp',
+          'A refreshing sweetened yogurt drink flavoured with rose water/ A drink made with fresh yogurt, lightly salted / Sweet yogurt mixed with mango pulp.',
       price: '3.50',
       image: ''
     },
@@ -37,7 +37,7 @@ export const MENU: Menu = {
       id: 'b3',
       name: 'Saffron Palace Nimbu Pani',
       description:
-          'Homemade lemonade served chilled with a dash of chat masala',
+          'Homemade lemonade served chilled with a dash of chat masala.',
       price: '2.50',
       image: ''
     },
@@ -50,14 +50,14 @@ export const MENU: Menu = {
     },
     {
       id: 'b5',
-      name: 'Saffron Palace Iced Tea / Bottled Water / Sodas',
+      name: 'Saffron Palace Iced Tea / Bottled Water / Sodas.',
       description: '',
       price: '2.25',
       image: ''
     },
     {
       id: 'hb1',
-      name: 'Saffron Palace Masala Tea / Coffee',
+      name: 'Saffron Palace Masala Tea / Coffee.',
       description:
           '',
       price: '2.50',
@@ -155,7 +155,7 @@ export const MENU: Menu = {
       id: 'ftb1',
       name: 'Saffron Palace Plain Naan',
       description:
-          'A traditional light and fluffy white bread baked in clay oven',
+          'A traditional light and fluffy white bread baked in clay oven.',
       price: '2.50',
       image: ''
     },
@@ -163,7 +163,7 @@ export const MENU: Menu = {
       id: 'ftb2',
       name: 'Saffron Palace Garlic Naan',
       description:
-          'Naan bread topped with chopped garlic, cilantro and baked in clay oven',
+          'Naan bread topped with chopped garlic, cilantro and baked in clay oven.',
       price: '3.50',
       image: ''
     },
@@ -186,7 +186,7 @@ export const MENU: Menu = {
     {
       id: 'ftb4',
       name: 'Saffron Palace Peshawari Naan',
-      description: 'Naan bread stuffed with raisins, nuts and herbs',
+      description: 'Naan bread stuffed with raisins, nuts and herbs.',
       price: '4.99',
       image: ''
     },
@@ -194,7 +194,7 @@ export const MENU: Menu = {
       id: 'ftb5',
       name: 'Saffron Palace Kheema / Cheese / Paneer Naan',
       description:
-          'Naan bread stuffed with light spiced ground Lamb / Naan bread with cheese spread baked in clay oven / Naan bread stuffed with cottage cheese baked in clay oven',
+          'Naan bread stuffed with light spiced ground Lamb / Naan bread with cheese spread baked in clay oven / Naan bread stuffed with cottage cheese baked in clay oven.',
       price: '4.99',
       image: ''
     },
@@ -392,7 +392,7 @@ export const MENU: Menu = {
       id: 'v13',
       name: 'Saffron Palace Daal Tadka / Daal Makhani',
       description:
-          'Split lentils cooked in spices, onions, tomato, ginger, garlic and cilantro / Whole lentils cooked in spices, cream and butter, sauteed in onions, tomatoes, ginger, garlic and garnished with cilantro',
+          'Split lentils cooked in spices, onions, tomato, ginger, garlic and cilantro / Whole lentils cooked in spices, cream and butter, sauteed in onions, tomatoes, ginger, garlic and garnished with cilantro.',
       price: '12.99',
       image: ''
     }
@@ -402,7 +402,7 @@ export const MENU: Menu = {
       id: 'c1',
       name: 'Saffron Palace Chicken Tikka Masala',
       description:
-          'Chicken cubes grilled in clay oven and cooked in a creamy tomato sauce',
+          'Chicken cubes grilled in clay oven and cooked in a creamy tomato sauce.',
       price: '13.99',
       image: ''
     },
@@ -771,6 +771,40 @@ export const MENU: Menu = {
       price: '12.99',
       image: ''
     }
+  ],
+  southindianspecial: [
+    {
+      id: 'sis1',
+      name: 'Saffron Palace Rava Dosa',
+      description:
+          'Paper thin crepe made of rice and semolina served with sambar and chutneys.',
+      price: '7.99',
+      image: ''
+    },
+    {
+      id: 'sis2',
+      name: 'Saffron Palace Masala Dosa',
+      description:
+          'Paper thin crepe made of rice and lentils, served with potato masala, sambar, tomato and coconut chutney.',
+      price: '7.99',
+      image: ''
+    },
+    {
+      id: 'sis3',
+      name: 'Saffron Palace Chicken Tikka Dosa',
+      description:
+          'Paper thin crepe made with Chicken pieces.',
+      price: '9.99',
+      image: ''
+    },
+    {
+      id: 'sis4',
+      name: 'Saffron Palace Vada (2 pieces)',
+      description:
+          'Fried lentil doughnut.',
+      price: '5.99',
+      image: ''
+    },
   ]
   
 };
