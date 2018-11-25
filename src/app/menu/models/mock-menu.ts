@@ -334,14 +334,6 @@ export const MENU: Menu = {
       image: ''
     },
     {
-      id: 'v52',
-      name: 'Saffron Palace Vegetable Pindi',
-      description:
-          'Spinach, almond, cashew sauce with vegetables.',
-      price: '14.99',
-      image: ''
-    },
-    {
       id: 'v6',
       name: 'Saffron Palace Paneer / Vegetable / Tofu Butter Masala',
       description:
