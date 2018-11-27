@@ -614,7 +614,7 @@ export const MENU: Menu = {
       name: 'Saffron Palace Lamb Biryani / Goat Biryani',
       description:
           'Basmati rice cooked with tender boneless Lamb, nuts, raisins, spices, herbs, garnished with saffron and fried onions / Basmati rice cooked with bone-in-goat, nuts, raisins, spices, herbs, garnished with saffron and fried onions.',
-      price: '13.99',
+      price: '14.99',
       image: ''
     },
     {
