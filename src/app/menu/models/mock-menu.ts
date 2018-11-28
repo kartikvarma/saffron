@@ -87,6 +87,13 @@ export const MENU: Menu = {
       image: ''
     },
     {
+      id: 'a31',
+      name: 'Saffron Palace Gobi / Apollo Fish / Shrimp Manchurian',
+      description: 'Deep fried Cauliflower / Fish / Shrimp cooked in Info Chinese and Soya sauce.',
+      price: '8.99 / 10.99 / 10.99',
+      image: ''
+    },
+    {
       id: 'a4',
       name: 'Saffron Palace Seekh Kabab (6 pieces)',
       description: 'Freshly ground Lamb, lightly spiced, cooked on skewers in clay oven.',
