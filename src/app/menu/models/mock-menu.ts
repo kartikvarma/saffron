@@ -88,9 +88,9 @@ export const MENU: Menu = {
     },
     {
       id: 'a31',
-      name: 'Saffron Palace Gobi / Apollo Fish / Shrimp Manchurian',
-      description: 'Deep fried Cauliflower / Fish / Shrimp cooked in Info Chinese and Soya sauce.',
-      price: '8.99 / 10.99 / 10.99',
+      name: 'Saffron Palace Gobi / Chicken / Apollo Fish / Shrimp Manchurian',
+      description: 'Deep fried Cauliflower / Chicken / Fish / Shrimp cooked in Info Chinese and Soya sauce.',
+      price: '8.99 / 10.99/ 10.99 / 10.99',
       image: ''
     },
     {
@@ -402,6 +402,14 @@ export const MENU: Menu = {
           'Split lentils cooked in spices, onions, tomato, ginger, garlic and cilantro / Whole lentils cooked in spices, cream and butter, sauteed in onions, tomatoes, ginger, garlic and garnished with cilantro.',
       price: '12.99',
       image: ''
+    },
+    {
+      id: 'v14',
+      name: 'Saffron Palace Chilli Chicken',
+      description:
+          'Deep fried cottage cheese cubes marinated in soya sauce, chili sauce and pepper.',
+      price: '12.99',
+      image: ''
     }
   ],
   chicken: [
@@ -442,7 +450,7 @@ export const MENU: Menu = {
       name: 'Saffron Palace Chicken Rogan Josh',
       description:
           'Chicken cooked with onion, ginger, garlic, yougurt, cashew nut and almond paste, tomato with special herbs and spices.',
-      price: '14.99',
+      price: '13.99',
       image: ''
     },
     {
@@ -475,6 +483,14 @@ export const MENU: Menu = {
       description:
           'North Indian speciality made with boneless chicken cooked in white creamy onion and cashew sauce.',
       price: '15.99',
+      image: ''
+    },
+    {
+      id: 'c9',
+      name: 'Saffron Palace Chilli Chicken',
+      description:
+          'Deep fried boneless chicken (fillets or cubes) marinated in soya sauce, chili sauce and pepper.',
+      price: '13.99',
       image: ''
     }
   ],
