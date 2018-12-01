@@ -405,7 +405,7 @@ export const MENU: Menu = {
     },
     {
       id: 'v14',
-      name: 'Saffron Palace Chilli Chicken',
+      name: 'Saffron Palace Chilli Paneer',
       description:
           'Deep fried cottage cheese cubes marinated in soya sauce, chili sauce and pepper.',
       price: '12.99',
