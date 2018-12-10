@@ -7,6 +7,7 @@ export const CONTACT: Contact = {
   email: 'contact@saffronpalacetampa.com',
   facebookURL: 'https://www.facebook.com/saffronpalacetampa/',
   instagramURL: 'https://instagram.com',
+  mondayClosed: 'Closed',
   weekdayLunchHrs: '11:00AM - 3:00PM',
   weekdayDinnerHrs: '5:00PM - 10:00PM',
   weekendBreakfastHrs: '9:00AM - 11:00AM',

@@ -28,6 +28,10 @@ dt {
   font-weight: bold;
 }
 
+.mon{
+  margin-left: 12%;
+}
+
 dd {
   margin-left: 50%;
   margin-bottom: .5em;

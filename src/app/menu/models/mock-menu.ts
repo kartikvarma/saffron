@@ -90,7 +90,7 @@ export const MENU: Menu = {
       id: 'a31',
       name: 'Saffron Palace Gobi / Chicken / Apollo Fish / Shrimp Manchurian',
       description: 'Deep fried Cauliflower / Chicken / Fish / Shrimp cooked in Info Chinese and Soya sauce.',
-      price: '8.99 / 10.99/ 10.99 / 10.99',
+      price: '8.99 / 10.99',
       image: ''
     },
     {
@@ -779,18 +779,10 @@ export const MENU: Menu = {
   ],
   buffet: [
     {
-      id: 'b1',
-      name: 'Saffron Palace Weekday Lunch Buffet',
+       id: 'b1',
+      name: 'Saffron Palace Lunch Buffet',
       description:
-          'Weekday lunch Buffet.',
-      price: '11.99',
-      image: ''
-    },
-    {
-      id: 'b2',
-      name: 'Saffron Palace Weekend Lunch Buffet',
-      description:
-          'Weekend special lunch Buffet.',
+          'Daily special lunch Buffet.',
       price: '12.99',
       image: ''
     }
