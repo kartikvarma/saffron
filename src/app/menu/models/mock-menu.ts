@@ -13,7 +13,7 @@ export const MENU: Menu = {
       id: 'km2',
       name: 'Saffron Palace French Fries',
       description: '',
-      price: '3.99',
+      price: '2.99',
       image: ''
     },
     {
@@ -90,7 +90,7 @@ export const MENU: Menu = {
       id: 'a31',
       name: 'Saffron Palace Gobi / Chicken / Apollo Fish / Shrimp Manchurian',
       description: 'Deep fried Cauliflower / Chicken / Fish / Shrimp cooked in Info Chinese and Soya sauce.',
-      price: '8.99 / 10.99',
+      price: '9.99 / 10.99',
       image: ''
     },
     {
@@ -120,6 +120,22 @@ export const MENU: Menu = {
       description:
           'Samosa with Chick peas masala / Crispy flour chips garnished with yogurt, cilantro and tamarind sauce.',
       price: '5.99',
+      image: ''
+    },
+    {
+      id: 'a8',
+      name: 'Saffron Palace Pav Bhaji',
+      description:
+          'Spiced curry with tamrind served with toasted bun.',
+      price: '7.99',
+      image: ''
+    },
+    {
+      id: 'a9',
+      name: 'Saffron Palace Chana Bhatura',
+      description:
+          'Deep fried puffed bread served with spicy Chick peas curry.',
+      price: '7.99',
       image: ''
     }
   ],
@@ -160,10 +176,10 @@ export const MENU: Menu = {
   freshtandooribread: [
     {
       id: 'ftb1',
-      name: 'Saffron Palace Plain Naan',
+      name: 'Saffron Palace Plain / Butter Naan',
       description:
           'A traditional light and fluffy white bread baked in clay oven.',
-      price: '2.50',
+      price: '2.50 / 3.00',
       image: ''
     },
     {
@@ -228,6 +244,14 @@ export const MENU: Menu = {
       image: ''
     },
     {
+      id: 'ftb10',
+      name: 'Saffron Palace Chapathi',
+      description:
+          'A traditional light wheat bread.',
+      price: '2.00',
+      image: ''
+    },
+    {
       id: 'ftb9',
       name: 'Saffron Palace Special Bread Basket',
       description: 'Combination of naan, garlic naan and aloo naan.',
@@ -286,10 +310,10 @@ export const MENU: Menu = {
   vegetables: [
     {
       id: 'v1',
-      name: 'Saffron Palace Vegetable / Paneer / Tofu Tikka Masala',
+      name: 'Saffron Palace Vegetable / Tofu / Paneer Tikka Masala',
       description:
           'Mixed vegetables / Cottage cheese cubes grilled in clay oven and cooked in a creamy tomato sauce.',
-      price: '13.99',
+      price: '13.99 / 14.99',
       image: ''
     },
     {
@@ -353,7 +377,7 @@ export const MENU: Menu = {
       name: 'Saffron Palace Palak Paneer / Paneer Tofu',
       description:
           'Cottage cheese cubes / Potatoes cooked with lightly creamed and spiced spinach.',
-      price: '13.99 / 14.99',
+      price: '14.99',
       image: ''
     },
     {
@@ -389,7 +413,7 @@ export const MENU: Menu = {
     },
     {
       id: 'v12',
-      name: 'Saffron Palace Aloo Palak / Palak Chana',
+      name: 'Saffron Palace Aloo Palak / Palak Chana / Chana Saag',
       description:
           'Potatoes / Spinach with Garbanzo cooked with lightly creamed and spiced spinach.',
       price: '12.99',
@@ -450,7 +474,7 @@ export const MENU: Menu = {
       name: 'Saffron Palace Chicken Rogan Josh',
       description:
           'Chicken cooked with onion, ginger, garlic, yougurt, cashew nut and almond paste, tomato with special herbs and spices.',
-      price: '13.99',
+      price: '14.99',
       image: ''
     },
     {
@@ -708,7 +732,7 @@ export const MENU: Menu = {
       name: 'Saffron Palace Green Salad / Onion Salad',
       description:
           'Salad made of lettuce, tomatoes, onions, cucumbers and carrots / Onions served with green chillies.',
-      price: '4.25 / 2.99',
+      price: '4.25 / 1.50',
       image: ''
     },
     {
@@ -737,9 +761,9 @@ export const MENU: Menu = {
     },
     {
       id: 'so6',
-      name: 'Saffron Palace Papad (Crisp wafers made of lentils)',
+      name: 'Saffron Palace Papad / Masala Papad (Crisp wafers made of lentils)',
       description: '',
-      price: '1.99',
+      price: '1.99 / 2.99',
       image: ''
     }
   ],
@@ -780,11 +804,35 @@ export const MENU: Menu = {
   buffet: [
     {
        id: 'b1',
-      name: 'Saffron Palace Lunch Buffet',
+      name: 'Saffron Palace Weekday Lunch Buffet',
       description:
-          'Daily special lunch Buffet.',
+          'Daily lunch Buffet.',
       price: '12.99',
       image: ''
+    },
+    {
+      id: 'b2',
+      name: 'Saffron Palace Weekend Lunch Buffet',
+      description:
+         'Weekend special lunch Buffet.',
+      price: '13.99',
+      image: ''
+    },
+    {
+      id: 'b3',
+      name: 'Saffron Palace Kids Weekday Buffet',
+      description:
+        'Daily lunch Buffet.',
+      price: '9.99',
+      image: ''
+    },
+    {
+      id: 'b4',
+    name: 'Saffron Palace Kids Weekend Buffet',
+    description:
+        'Weekend special lunch Buffet.',
+    price: '10.99',
+    image: ''
     }
   ],
   southindianspecial: [
