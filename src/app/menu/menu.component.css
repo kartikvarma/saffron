@@ -24,7 +24,7 @@
 }
 
 .item-category {
-  font-family: EmblemaOne;
+  font-family: JosefinSlab-SemiBold;
   font-size: 30px;
   text-align: center;
   margin-top: 20px;
@@ -32,7 +32,7 @@
 }
 
 .item-category-description {
-  font-family: 'Roboto',
+  font-family: 'JosefinSlab-SemiBold',
     sans-serif;
   color: gold;
 }
@@ -86,8 +86,16 @@
 
 .menu-disclaimer {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 24px;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu-note {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

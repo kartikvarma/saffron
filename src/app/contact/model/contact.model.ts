@@ -5,6 +5,7 @@ export class Contact {
   email: string;
   facebookURL: string;
   instagramURL: string;
+  mondayClosed: string;
   weekdayLunchHrs: string;
   weekdayDinnerHrs: string;
   weekendBreakfastHrs: string;
